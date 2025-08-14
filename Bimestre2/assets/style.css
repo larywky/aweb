@@ -1,1 +1,281 @@
+/* Importação das fontes do Google Icons */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+/* Estilos globais */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #ffffff; /* Cor primária (60%) */
+    color: #333333; /* Cor dos textos */
+    padding-top: 120px;
+}
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #ffffff; /* Cor secundária (30%) */
+}
+
+h2, h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #1f3b1d;
+}
+
+
+/* Cabeçalho */
+.header {
+    top: 0;
+    left: 0; 
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    color: #1f3b1d;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #f7a9b8; 
+}
+
+
+.logo-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1f3b1d;
+    vertical-align: middle;
+    display: inline-block; 
+}
+
+.header h1 {
+    display: inline-block; 
+    margin-left: 25px;
+    color: #1f3b1d;
+    vertical-align: middle; 
+}
+
+.cabecalho h1 {
+    display: inline-block;
+    margin-left: 15px;
+    color: #1f3b1d;
+}
+
+.menu-navegacao ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-navegacao li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: #1f3b1d;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-navegacao a:hover {
+    color: #f7a9b8; /* Cor de destaque (10%) */
+}
+
+.menu-navegacao i {
+    margin-right: 5px;
+}
+
+
+/* Seções gerais */
+.secao {
+    padding: 100px 30px;
+    text-align: center;
+    color: #1f3b1d;
+}
+
+.secao:nth-of-type(odd) {
+    background-color: #1f3b1d;
+}
+
+.secao h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.conteudo-secao {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.foto-secao {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Seção Hero */
+.hero {
+    background-color: #1f3b1d;
+    color: #ffffff;
+    padding: 150px 20px;
+}
+
+.hero h2 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.foto-secao {
+    width: 300px; 
+    float: right; 
+    margin-right: 30px; 
+    align-content: center;
+    margin-top: -200px;
+}
+
+.botao-cta {
+    background-color: #f7a9b8; /* Cor de destaque (10%) */
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botao-cta:hover {
+    background-color: #e093a1; /* Um tom mais escuro para o hover */
+}
+
+/* Seção Curiosidades */
+.lista-curiosidades {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.lista-curiosidades li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+
+
+.lista-curiosidades p {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+/* Seção Portfólio */
+.cards-container {
+    display: block; /* Garante que os cards fiquem um abaixo do outro em telas menores */
+    text-align: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Seção Rotina (Tabela) */
+.tabela-rotina {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tabela-rotina th, .tabela-rotina td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.tabela-rotina th {
+    background-color: #1f3b1d;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tabela-rotina tr:nth-child(even) {
+    background-color: #f8e7ea;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #1f3b1d;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.conteudo-rodape {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.rodape a {
+    color: #fdedf0;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.rodape a:hover {
+    color: #ffffff;
+}
+
+.redes-sociais i {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+.mapa-site, .contato-email, .redes-sociais {
+    margin-top: 20px;
+}
+
+.mapa-site ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mapa-site li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
 
