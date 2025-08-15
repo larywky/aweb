@@ -1,19 +1,20 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 
-
+/* Estilos globais */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #ffffff; /* Cor primária (60%) */
+    color: #333333; /* Cor dos textos */
     padding-top: 120px;
 }
 
 h1, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
-    color: #ffffff; 
+    color: #ffffff; /* Cor secundária (30%) */
 }
 
 h2 {
@@ -23,7 +24,7 @@ h2 {
 }
 
 
-
+/* Cabeçalho */
 .header {
     top: 0;
     left: 0; 
@@ -87,6 +88,7 @@ h2 {
 }
 
 
+/* Seções gerais */
 .secao {
     padding: 100px 30px;
     text-align: center;
@@ -118,7 +120,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-
+/* Seção Hero */
 .hero {
     background-color: #1f3b1d;
     color: #ffffff;
@@ -145,7 +147,7 @@ h2 {
 }
 
 .botao-cta {
-    background-color: #f7a9b8;
+    background-color: #f7a9b8; /* Cor de destaque (10%) */
     color: #ffffff;
     padding: 15px 30px;
     text-decoration: none;
@@ -155,8 +157,10 @@ h2 {
 }
 
 .botao-cta:hover {
-    background-color: #e093a1; }
+    background-color: #e093a1; /* Um tom mais escuro para o hover */
+}
 
+/* Seção Curiosidades */
 .lista-curiosidades {
     list-style: none;
     padding: 0;
@@ -184,9 +188,9 @@ h2 {
     padding: 0;
 }
 
-
+/* Seção Portfólio */
 .cards-container {
-    display: block; 
+    display: block; /* Garante que os cards fiquem um abaixo do outro em telas menores */
     text-align: center;
 }
 
@@ -207,7 +211,7 @@ h2 {
     object-fit: cover;
 }
 
-
+/* Seção Rotina (Tabela) */
 .tabela-rotina {
     width: 100%;
     margin-top: 20px;
@@ -224,3 +228,48 @@ h2 {
     color: #ffffff;
     font-weight: bold;
 }
+
+
+/* Rodapé */
+.rodape {
+    background-color: #1f3b1d;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.conteudo-rodape {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.rodape a {
+    color: #fdedf0;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.rodape a:hover {
+    color: #ffffff;
+}
+
+.redes-sociais i {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+.mapa-site, .contato-email, .redes-sociais {
+    margin-top: 5px;
+}
+
+.mapa-site ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mapa-site li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
