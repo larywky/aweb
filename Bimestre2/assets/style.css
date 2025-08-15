@@ -11,13 +11,13 @@ body {
     padding-top: 120px;
 }
 
-h1, h3 {
+h1, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     color: #ffffff; /* Cor secundária (30%) */
 }
 
-h2, h4 {
+h2 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     color: #1f3b1d;
@@ -81,8 +81,7 @@ h2, h4 {
 }
 
 .menu-navegacao a:hover {
-    color: #f7a9b8; /* Cor de destaque (10%) */
-}
+    color: #f7a9b8; }
 
 .menu-navegacao i {
     margin-right: 5px;
@@ -215,13 +214,12 @@ h2, h4 {
 /* Seção Rotina (Tabela) */
 .tabela-rotina {
     width: 100%;
-    border-collapse: collapse;
     margin-top: 20px;
     text-align: left;
 }
 
 .tabela-rotina th, .tabela-rotina td {
-    border: 1px solid #ddd;
+    border: 1px solid #e093a1;
     padding: 12px;
 }
 
@@ -231,15 +229,12 @@ h2, h4 {
     font-weight: bold;
 }
 
-.tabela-rotina tr:nth-child(even) {
-    background-color: #f8e7ea;
-}
 
 /* Rodapé */
 .rodape {
     background-color: #1f3b1d;
     color: #ffffff;
-    padding: 40px 20px;
+    padding: 10px 20px;
     text-align: center;
 }
 
@@ -265,7 +260,7 @@ h2, h4 {
 }
 
 .mapa-site, .contato-email, .redes-sociais {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .mapa-site ul {
