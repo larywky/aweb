@@ -224,3 +224,45 @@ h2 {
     color: #ffffff;
     font-weight: bold;
 }
+
+.rodape {
+    background-color: #1f3b1d;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.conteudo-rodape {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.rodape a {
+    color: #fdedf0;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.rodape a:hover {
+    color: #ffffff;
+}
+
+.redes-sociais i {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+.mapa-site, .contato-email, .redes-sociais {
+    margin-top: 5px;
+}
+
+.mapa-site ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mapa-site li {
+    display: inline-block;
+    margin: 0 10px;
+}
