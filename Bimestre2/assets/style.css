@@ -1,20 +1,19 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 
-/* Estilos globais */
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #ffffff; /* Cor primária (60%) */
-    color: #333333; /* Cor dos textos */
+    background-color: #ffffff;
+    color: #333333;
     padding-top: 120px;
 }
 
 h1, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
-    color: #ffffff; /* Cor secundária (30%) */
+    color: #ffffff; 
 }
 
 h2 {
@@ -24,7 +23,7 @@ h2 {
 }
 
 
-/* Cabeçalho */
+
 .header {
     top: 0;
     left: 0; 
@@ -88,7 +87,6 @@ h2 {
 }
 
 
-/* Seções gerais */
 .secao {
     padding: 100px 30px;
     text-align: center;
@@ -120,7 +118,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Seção Hero */
+
 .hero {
     background-color: #1f3b1d;
     color: #ffffff;
@@ -147,7 +145,7 @@ h2 {
 }
 
 .botao-cta {
-    background-color: #f7a9b8; /* Cor de destaque (10%) */
+    background-color: #f7a9b8;
     color: #ffffff;
     padding: 15px 30px;
     text-decoration: none;
@@ -157,10 +155,8 @@ h2 {
 }
 
 .botao-cta:hover {
-    background-color: #e093a1; /* Um tom mais escuro para o hover */
-}
+    background-color: #e093a1; 
 
-/* Seção Curiosidades */
 .lista-curiosidades {
     list-style: none;
     padding: 0;
@@ -188,9 +184,9 @@ h2 {
     padding: 0;
 }
 
-/* Seção Portfólio */
+
 .cards-container {
-    display: block; /* Garante que os cards fiquem um abaixo do outro em telas menores */
+    display: block; 
     text-align: center;
 }
 
@@ -211,7 +207,7 @@ h2 {
     object-fit: cover;
 }
 
-/* Seção Rotina (Tabela) */
+
 .tabela-rotina {
     width: 100%;
     margin-top: 20px;
@@ -230,7 +226,7 @@ h2 {
 }
 
 
-/* Rodapé */
+
 .rodape {
     background-color: #1f3b1d;
     color: #ffffff;
