@@ -229,26 +229,28 @@ h2 {
     font-weight: bold;
 }
 
-.rodape {
+
+
+.footer {
     background-color: #1f3b1d;
     color: #ffffff;
     padding: 10px 20px;
     text-align: center;
 }
 
-.conteudo-rodape {
+.conteudofooter {
     max-width: 900px;
     margin: 0 auto;
 }
 
-.rodape a {
+.footer a {
     color: #fdedf0;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
 
-.rodape a:hover {
+.footer a:hover {
     color: #ffffff;
 }
 
